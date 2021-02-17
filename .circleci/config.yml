@@ -37,7 +37,7 @@ aliases:
       name: Build Project
       command: |
         npm install
-        npm audit fix
+        npm audit fix --force
         false npm run build
         cd build
         zip ../build.zip -r * .[^.]*
