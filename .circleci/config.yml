@@ -38,7 +38,7 @@ aliases:
       command: |
         npm install
         npm audit fix --force
-        false npm run build
+        npm run build
         cd build
         zip ../build.zip -r * .[^.]*
         echo "Build successful"
